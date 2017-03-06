@@ -7,9 +7,9 @@ var port= process.env.PORT || 3000;
 
 app.use(function (req,res,next){ //change the protocol from https to http:
   if(req.headers['x-forwarded-proto'] === 'http'){
-    next(); //next function
-  }else{
     res.redirect('http://' + req.hostname + req.url);
+  }else{
+    next(); //next function
   }
 
 });
@@ -18,5 +18,5 @@ app.use(function (req,res,next){ //change the protocol from https to http:
 app.use(express.static('public'));
 
 app.listen(port, function () {
-  console.log('Express server is up on port 3000' + port);
+  console.log('Express server is up on port ' + port);
 });
