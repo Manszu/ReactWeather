@@ -10,7 +10,10 @@ var React = require('react');
 
 var About =  (props) => { //function arrow
     return (
-        <h3>About Component</h3>
+        <div>
+         <h3>Informacje</h3>
+            <p>Projekt zaliczeniowy Programowanie Aplikacji Webowych 2015/2016</p>
+        </div>
     )
 };
 
