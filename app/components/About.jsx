@@ -8,6 +8,8 @@ var React = require('react');
 
 //refactoring using props arrow function except of rendering
 
+
+
 var About =  (props) => { //function arrow
     return (
         <div>
