@@ -10,8 +10,12 @@ var React = require('react');
 
 //Instead of create React class you can use arrow function
 var Examples = (props) => {
+
     return (
-        <h3>Przykłady</h3>
+        <div>
+            <h3>Przykłady</h3>
+            <p>Witaj na mojej przykładowej stronie</p>
+        </div>
 
     )
 };
