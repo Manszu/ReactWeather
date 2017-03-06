@@ -21,6 +21,6 @@ var WeatherForm= React.createClass({
             </div>
         )
     }
-})
+});
 
 module.exports=WeatherForm;
