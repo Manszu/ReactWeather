@@ -15,7 +15,7 @@ var WeatherMessage = ({temp,location}) => { //{temp,location} except of props ar
   //  var{temp, location}= props;
 
     return (
-    <h3>Aktualnie mamy {temp} Stopni Celsjusza w {location}</h3>
+    <h3 className="text-center">Aktualnie mamy {temp} Stopni Celsjusza w {location}</h3>
 )
 
 };
