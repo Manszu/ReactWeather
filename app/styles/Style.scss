@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen');
 
+
+$space-large : 3rem;
+
+
 .page-title{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: $space-large;
+    margin-bottom: $space-large;
     font-family: 'Oxygen' ;
 }
 
