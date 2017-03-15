@@ -67,12 +67,14 @@ var Weather = React.createClass({
         }
      }
     return (
+
         <div>
-      <h1 className="text-center">Pobierz pogodę</h1>
+      <h1 className="text-center page-title">Pobierz pogodę dla swojego miasta :)</h1>
         <WeatherForm onSearch={this.handleSearch}/>
             {renderMessage()}
             {renderError()}
         </div>
+
     )
   }
 });

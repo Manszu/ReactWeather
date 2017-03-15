@@ -1,4 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
 .page-title{
     margin-top: 3rem;
     margin-bottom: 3rem;
+    font-family: 'Oxygen' ;
+}
+
+
+.nav{
+    font-family: 'Oxygen';
+}
+
+input[type=search] {
+    box-shadow:none;
 }

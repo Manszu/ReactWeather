@@ -14,7 +14,7 @@ var Examples = (props) => {
 
     return (
         <div>
-            <h1 className="text-center">Przykłady</h1>
+            <h1 className="text-center page-title">Przykłady</h1>
             <p>Udostepniam parę przykładów miast do wypróbowania</p>
             <ol>
                 <li>

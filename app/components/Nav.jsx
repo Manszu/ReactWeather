@@ -24,10 +24,10 @@ var Nav = React.createClass({
 
     render: function () {
         return (
-            <div className="top-bar">
-                <div className="top-bar-left">
-                    <ul className="menu">
-                        <li className="menu-text">
+            <div className="top-bar nav">
+                <div className="top-bar-left nav">
+                    <ul className="menu nav">
+                        <li className="menu-text nav">
                             PAW 2015/2016 Krzysztof Mansz "Pogoda w Twoim mieście"
                         </li>
                         <li>
@@ -48,7 +48,7 @@ var Nav = React.createClass({
                     <form onSubmit={this.onSearch}>
                         <ul className="menu">
                             <li>
-                                <input type="search" placeholder="Szukaj pogodę"/>
+                                <input type="search" placeholder="Szukaj pogodę w swoim mieście"/>
                             </li>
                             <li>
                                 <input type="submit" className="button" value="Pobierz pogodę"/>

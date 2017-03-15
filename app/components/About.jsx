@@ -13,7 +13,7 @@ var React = require('react');
 var About =  (props) => { //function arrow
     return (
         <div>
-         <h1 className="text-center">Informacje</h1>
+         <h1 className="text-center page-title">Informacje</h1>
             <p >Projekt zaliczeniowy Programowanie Aplikacji Webowych 2015/2016. Projekt został stworzony w oparciu o Framework React. Wykorzystano
             język ECMAScript 6. Do stworzenia styli wykorzystano Foundation. API pogodowe wykorzystane w projekcie to api wystawione
             przez OPEN WEATHER MAP. </p>
@@ -31,6 +31,10 @@ var About =  (props) => { //function arrow
                 </li>
                 <li>
                     <a href="http://foundation.zurb.com/sites/docs/"> Foundation do styli</a> Do styli użyłem responsywnego frameworka Foundation.
+                </li>
+                <li>
+                    <a href="https://fonts.google.com"> Czcionki google</a> Czcionka wykorzystana na stronie to czcionka Oxygen z dostępnego
+                    źródła czcionek udostępnianego przez google- google fonts.
                 </li>
             </ul>
         </div>
