@@ -19,7 +19,9 @@ var Nav = React.createClass({
 
     onSearch: function (e) {
         e.preventDefault();
-        alert('Not yet alert up');
+        var location = this.refs.search.value;
+        alert(location);
+
     },
 
     render: function () {
@@ -48,7 +50,7 @@ var Nav = React.createClass({
                     <form onSubmit={this.onSearch}>
                         <ul className="menu">
                             <li>
-                                <input type="search" placeholder="Szukaj pogodę w swoim mieście"/>
+                                <input type="search" placeholder="Szukaj pogodę w swoim mieście" ref="search"/>
                             </li>
                             <li>
                                 <input type="submit" className="button" value="Pobierz pogodę"/>
