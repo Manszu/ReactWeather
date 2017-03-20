@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4a40afe9-7227-4c0f-84da-2306011776c4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/Nav.jsx" afterPath="$PROJECT_DIR$/app/components/Nav.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/Weather.jsx" afterPath="$PROJECT_DIR$/app/components/Weather.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -439,7 +437,7 @@
       <workItem from="1489473971945" duration="3989000" />
       <workItem from="1489572948661" duration="11823000" />
       <workItem from="1489663134163" duration="1783000" />
-      <workItem from="1489999280430" duration="4986000" />
+      <workItem from="1489999280430" duration="5045000" />
     </task>
     <task id="LOCAL-00001" summary="comit calego projektu">
       <created>1488214558856</created>
@@ -497,11 +495,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488899525348</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="zmiany">
+      <created>1490012586053</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1490012586053</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108583000" />
+    <option name="totallyTimeSpent" value="108642000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
