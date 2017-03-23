@@ -48,13 +48,23 @@ var Weather = React.createClass({
 
       },
     componentDidMount: function(){
-      var location = this.props.location.query.name;
+
+      var location = this.props.location.query.location;
 
       if(location && location.length >0){
           this.handleSearch(location);
           window.location.hash = '#/';
       }
     },
+    componentWillReceiveProps: function (newProps){
+        var location = newProps.location.query.location;
+
+        if(location && location.length >0){
+            this.handleSearch(location);
+            window.location.hash = '#/';
+        }
+    },
+
   render: function () {
     var {isLoading, temp, location ,errorMessage}= this.state; //the variables exists in the this.state object
 
